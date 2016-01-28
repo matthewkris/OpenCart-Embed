@@ -1,0 +1,44 @@
+.oc-product-wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+.oc-product-wrapper:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.oc-product {
+    vertical-align:top;
+    display: inline-block;
+    margin:0 auto;
+}
+
+.oc-product-content {
+    width: 150px;
+    min-height: 222px;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.oc-image img {
+    max-width: 100%; height: auto; display: block;
+}
+
+.oc-name {
+    font-size: 15px;
+}
+
+.oc-name a {
+    color: red;
+}
+
+.oc-price {
+    font-size: 13px;
+}
